@@ -1,0 +1,5 @@
+<div ng-init="vm.init()" ng-controller="newGameController as vm">
+	<div ng-click="vm.selectGameType(type.id)" class="level-card" ng-repeat="type in vm.gameTypes">
+		{{type.name}}
+	</div>
+</div>
